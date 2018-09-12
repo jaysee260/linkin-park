@@ -1,7 +1,7 @@
 {
-  "name": "webpack-react-boilerplate",
+  "name": "linkin-park",
   "version": "1.0.0",
-  "description": "a react boilerplate with support for Sass and built with webpack",
+  "description": "a tribute",
   "main": "webpack.config.js",
   "scripts": {
     "dev": "npm run webpack-dev-server -- --env.env=dev",
@@ -9,21 +9,8 @@
     "build": "npm run webpack -- --env.env=prod",
     "webpack": "node ./node_modules/webpack/bin/webpack.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jsdev17/webpack-react-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "boilerplate",
-    "webpack"
-  ],
   "author": "Juan Carlos Gonzalez",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jsdev17/webpack-react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/jsdev17/webpack-react-boilerplate#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
